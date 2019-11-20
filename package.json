@@ -19,7 +19,7 @@
   "scripts": {
     "test": "make test",
     "build": "make build",
-    "prepack": "make install",
+    "prepack": "make fullbuild",
     "postpack": "make clean",
     "prepublish": "make build",
     "postpublish": "make clean"
@@ -76,6 +76,6 @@
     "sinon": "^7.5.0",
     "travis-cov": "^0.2.5",
     "uglify-js": "^3.0.18",
-    "webpack": "^1.4.13"
+    "webpack": "^1.15.0"
   }
 }
