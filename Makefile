@@ -29,6 +29,9 @@ test:
 	@make spec
 	@make coverage COVERAGE_FLAGS="-R travis-cov"
 
+install:
+	@npm i
+
 build:
 	@$(WEBPACK) --config webpack.dev.js
 	@$(WEBPACK) --config webpack.prod.js
