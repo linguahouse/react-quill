@@ -12,6 +12,8 @@ const sinon = require('sinon');
 const {expect, assert} = require('chai');
 const ReactQuill = require('../src/index');
 const Quill = ReactQuill.Quill;
+const { JSDOM } = require("jsdom");
+global.DOMParser = new JSDOM().window.DOMParser;
 
 const {
   mountReactQuill,

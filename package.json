@@ -1,6 +1,6 @@
 {
-  "name": "@dp/react-quill-2",
-  "version": "2.0.24",
+  "name": "react-quill-2",
+  "version": "2.0.2-dev.1",
   "description": "The Quill rich-text editor as a React component.",
   "author": "zenoamaro <zenoamaro@gmail.com>",
   "homepage": "https://github.com/zenoamaro/react-quill",
@@ -50,10 +50,10 @@
     "create-react-class": "^15.6.0",
     "lodash": "^4.17.4",
     "prop-types": "^15.5.10",
-    "@dp/quill": "2.0.0-dev.47",
     "react-dom-factories": "^1.0.0"
   },
   "peerDependencies": {
+    "quill": "^2.0.0-dev.3",
     "react": "^0.14.9 || ^15.3.0 || ^16.0.0"
   },
   "devDependencies": {
@@ -62,17 +62,18 @@
     "chai-enzyme": "^0.8.0",
     "cheerio": "^1.0.0-rc.1",
     "enzyme": "^2.9.1",
-    "jsdom": "^11.0.0",
+    "jsdom": "^15.1.0",
     "jsdom-global": "^3.0.2",
     "jshint": "^2.9.4",
     "mocha": "^3.4.2",
     "mocha-text-cov": "^0.1.1",
-    "react": "^15.6.1",
+    "quill": "^2.0.0-dev.3",
+    "react": "^15.6.2",
     "react-addons-test-utils": "^15.6.0",
-    "react-dom": "^15.6.1",
-    "react-test-renderer": "^15.6.1",
+    "react-dom": "^15.6.2",
+    "react-test-renderer": "^15.6.2",
     "should": "^4.3.0",
-    "sinon": "^2.3.5",
+    "sinon": "^7.5.0",
     "travis-cov": "^0.2.5",
     "uglify-js": "^3.0.18",
     "webpack": "^1.4.13"
