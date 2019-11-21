@@ -30,7 +30,7 @@ test:
 	@make coverage COVERAGE_FLAGS="-R travis-cov"
 
 fullbuild:
-	@npm i webpack@1.15.0
+	@npm i --unsafe webpack@1.15.0
 	@make build
 
 build:
